@@ -6,7 +6,7 @@ PYTHON_LIB = -framework Python
 SDL_INC = `sdl-config --cflags`
 SDL_LIB = `sdl-config --libs` /sw/lib/libSDL_ttf.a /usr/X11R6/lib/libfreetype.a
 
-QT_INC = -I/Developer/Headers/FlatCarbon/ -I/System/Library/Frameworks/QuickTime.framework/Versions/A/Headers/
+QT_INC = -I/Developer/Headers/FlatCarbon/
 QT_LIB = -framework QuickTime
 
 MIDI_INC = -D__MACOSX_CORE__ -I.

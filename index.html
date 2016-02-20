@@ -1,0 +1,39 @@
+<html>
+	<head><style>BODY { font-family: sans-serif; }</style></head>
+	<body>
+		<h1>pyvid</h1>
+		<p><img src="/~jelle/cache/p/pyvid/app.jpg/500x500.jpg"/></p>
+		<p>based on a three day hack, comes this three day
+		rewrite. This little app can trigger quicktime clips via MIDI.
+		All it does is the following,
+		<ul>
+			<li>load quicktime clips
+			<li>start clip on midi note on
+			<li>stop clip on midi note off
+			<li>set clip opacity on aftertouch and velocity
+			messages
+			<li>has a little gui
+		</ul></p>
+
+
+		<p><h2>source code</h2></p>
+		<p>It is written in C++ and python, and compiles on windows and
+		mac. For video decoding QuickTime is used. Video display is
+		done with SDL. The lowlevel bits are c++ and the high level
+		interface to python is via SWIG.  MIDI interfaces are queried
+		using the <a href="http://www.music.mcgill.ca/~gary/rtmidi/">RtMidi</a> library.
+		</p>
+
+		<p>to see how simple this is, have a look at the
+		main python source <a href="src/pyvid.py.html">pyvid.py</a></p>
+		
+		<p>You can browse the source online, highlighted using GNU
+		Source Highlite, <A href="src/index.html">here</a>.</p>
+
+		<p><a href="pyvid2.tar.bz2">pyvid2.tar.bz2</a> <a href="pyvid2.tar.bz2.md5">MD5</a></p>
+
+
+		<p><h2>download</h2><a href="pyvid.app.zip">pyvid.app.zip</a></p>
+		<p><h2>manual</h2><a href="manual.html">sort of</a></p>
+	</body>
+</html>

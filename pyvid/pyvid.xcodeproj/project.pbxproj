@@ -1,0 +1,122 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		709A1BEB1897154800D43ECB /* Error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
+		709A1BEC1897154800D43ECB /* example.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example.cc; sourceTree = "<group>"; };
+		709A1BED1897154800D43ECB /* example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = example.h; sourceTree = "<group>"; };
+		709A1BEE1897154800D43ECB /* example.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = example.i; sourceTree = "<group>"; };
+		709A1BEF1897154800D43ECB /* font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font.ttf; sourceTree = "<group>"; };
+		709A1BF01897154800D43ECB /* gui.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = gui.py; sourceTree = "<group>"; };
+		709A1BF11897154800D43ECB /* keymap.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = keymap.py; sourceTree = "<group>"; };
+		709A1BF21897154800D43ECB /* macosx.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = macosx.py; sourceTree = "<group>"; };
+		709A1BF31897154800D43ECB /* main.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		709A1BF41897154800D43ECB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		709A1BF51897154800D43ECB /* model.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = model.py; sourceTree = "<group>"; };
+		709A1BF61897154800D43ECB /* path.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = path.py; sourceTree = "<group>"; };
+		709A1BF71897154800D43ECB /* pyvid.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = pyvid.py; sourceTree = "<group>"; };
+		709A1BF81897154800D43ECB /* QTMovie.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QTMovie.cc; sourceTree = "<group>"; };
+		709A1BF91897154800D43ECB /* QTMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTMovie.h; sourceTree = "<group>"; };
+		709A1BFA1897154800D43ECB /* RtError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RtError.h; sourceTree = "<group>"; };
+		709A1BFB1897154800D43ECB /* RtMidi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RtMidi.cpp; sourceTree = "<group>"; };
+		709A1BFC1897154800D43ECB /* RtMidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RtMidi.h; sourceTree = "<group>"; };
+		709A1BFD1897154800D43ECB /* setup.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+		709A1BFE1897154800D43ECB /* test.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
+		709A1BFF1897154800D43ECB /* test2.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test2.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		709A1BE31897153500D43ECB = {
+			isa = PBXGroup;
+			children = (
+				709A1BEA1897154800D43ECB /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		709A1BEA1897154800D43ECB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				709A1BEB1897154800D43ECB /* Error.h */,
+				709A1BEC1897154800D43ECB /* example.cc */,
+				709A1BED1897154800D43ECB /* example.h */,
+				709A1BEE1897154800D43ECB /* example.i */,
+				709A1BEF1897154800D43ECB /* font.ttf */,
+				709A1BF01897154800D43ECB /* gui.py */,
+				709A1BF11897154800D43ECB /* keymap.py */,
+				709A1BF21897154800D43ECB /* macosx.py */,
+				709A1BF31897154800D43ECB /* main.cc */,
+				709A1BF41897154800D43ECB /* Makefile */,
+				709A1BF51897154800D43ECB /* model.py */,
+				709A1BF61897154800D43ECB /* path.py */,
+				709A1BF71897154800D43ECB /* pyvid.py */,
+				709A1BF81897154800D43ECB /* QTMovie.cc */,
+				709A1BF91897154800D43ECB /* QTMovie.h */,
+				709A1BFA1897154800D43ECB /* RtError.h */,
+				709A1BFB1897154800D43ECB /* RtMidi.cpp */,
+				709A1BFC1897154800D43ECB /* RtMidi.h */,
+				709A1BFD1897154800D43ECB /* setup.py */,
+				709A1BFE1897154800D43ECB /* test.py */,
+				709A1BFF1897154800D43ECB /* test2.py */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		709A1BE41897153500D43ECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 709A1BE71897153500D43ECB /* Build configuration list for PBXProject "pyvid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 709A1BE31897153500D43ECB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		709A1BE81897153500D43ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		709A1BE91897153500D43ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		709A1BE71897153500D43ECB /* Build configuration list for PBXProject "pyvid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709A1BE81897153500D43ECB /* Debug */,
+				709A1BE91897153500D43ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 709A1BE41897153500D43ECB /* Project object */;
+}
